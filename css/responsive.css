@@ -1,0 +1,782 @@
+@media (max-width: 575.98px) {
+
+    /* ======= Navbar Here ======= */
+    #navbar {
+        padding: 12px 0;
+    }
+
+    #navbar .navbar-brand img {
+        width: 125px;
+    }
+
+    #navbar button {
+        border-color: #fff;
+    }
+
+    #navbar button:focus {
+        box-shadow: none;
+    }
+
+    #navbar button i {
+        color: #fff;
+    }
+
+    #navbar .navbar-collapse {
+        background: #000000e8;
+        z-index: 2;
+        margin-top: 12px;
+        text-align: center;
+    }
+
+    #navbar ul {
+        margin-top: 20px;
+    }
+
+    #navbar ul li a {
+        font: 400 16px var(--common-font);
+    }
+
+    #navbar .btnWrap {
+        margin: 40px 0 20px;
+    }
+
+    #navbar .btnWrap a {
+        line-height: 0;
+        padding: 18px 20px 14px;
+        margin-right: 20px;
+    }
+
+    /* ======= Hero Section Here ======= */
+    #hero {
+        padding: 115px 0 80px;
+    }
+
+    #hero .heroContent::after {
+        left: -180px;
+        top: -12px;
+        width: 346px;
+        height: 346px;
+    }
+
+    #hero .heroContent h1 {
+        font: 700 36px var(--common-font);
+        line-height: 40px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    #hero .heroContent p {
+        font: 400 19px var(--common-font);
+        line-height: 24px;
+        margin-bottom: 24px;
+        width: 100%;
+    }
+
+    #hero .heroContent a {
+        font: 700 14px var(--common-font);
+        padding: 15px 22px 11px;
+        border-radius: 5px;
+    }
+
+    /* ======= Navbar Here ======= */
+    #offerWrap {
+        padding: 60px 0;
+    }
+
+    #offerWrap .heading h2 {
+        font: 700 35px var(--common-font);
+        line-height: 40px;
+    }
+
+    #offerWrap .heading p {
+        font: 400 16px var(--common-font);
+        line-height: 24px;
+        width: 100%;
+    }
+
+    #offerWrap .items {
+        height: 404px;
+    }
+
+    #offerWrap .items .imagesPart {
+        padding: 24px 44px 190px 24px;
+    }
+
+    #offerWrap .items .contentWrap {
+        top: 200px;
+    }
+
+    #offerWrap .items .content {
+        padding: 18px;
+    }
+
+    #offerWrap .items .content h6 {
+        font: 400 14px var(--common-font);
+        line-height: 18px;
+        margin-bottom: 12px;
+    }
+
+    #offerWrap .items .content p {
+        font: 400 14px var(--common-font);
+        line-height: 18px;
+        width: 100%;
+    }
+
+    #offerWrap .items .content .price {
+        padding-bottom: 10px;
+    }
+
+    #offerWrap .items .content .hiddenContent {
+        padding-top: 10px;
+    }
+
+    #offerWrap .items .content .hiddenContent .priceTag {
+        font: 400 14px var(--common-font);
+        line-height: 18px;
+    }
+
+    #offerWrap .moreProjects {
+        margin-top: 60px;
+    }
+
+    #offerWrap .moreProjects a {
+        font: 400 14px var(--common-font);
+        padding: 19px 18px 14px;
+        border-radius: 5px;
+    }
+
+    #offerWrap .shape {
+        display: none;
+    }
+
+    /* ======= Navbar Here ======= */
+    #investorWrap {
+        padding: 60px 0;
+    }
+
+    #investorWrap .content .icon {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 18px;
+    }
+
+    #investorWrap .content h2 {
+        font: 700 35px var(--common-font);
+        line-height: 40px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #investorWrap .content p {
+        font: 400 16px var(--common-font);
+        line-height: 24px;
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    #investorWrap .shapeOne {
+        display: none;
+    }
+
+    #investorWrap .shapeTwo {
+        display: none;
+    }
+
+    /* ======= Navbar Here ======= */
+    #applyWrap {
+        padding: 60px 0;
+    }
+
+    #applyWrap .content h2 {
+        font: 700 34px var(--common-font);
+        line-height: 40px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    #applyWrap .content p {
+        font: 400 18px var(--common-font);
+        line-height: 24px;
+        margin-bottom: 24px;
+        width: 100%;
+    }
+
+    #applyWrap .content a {
+        font: 400 14px var(--common-font);
+        padding: 19px 18px 14px;
+        border-radius: 5px;
+        margin-bottom: 24px;
+    }
+
+    #applyWrap .applyShape {
+        display: none;
+    }
+
+    /* ======= Navbar Here ======= */
+    #footer .logoAndOthers img {
+        margin-bottom: 20px;
+        width: 60%;
+    }
+
+    #footer .logoAndOthers {
+        margin-bottom: 30px;
+    }
+
+    #footer .logoAndOthers p {
+        margin-bottom: 20px;
+    }
+
+    #footer .logoAndOthers form a {
+        top: 0;
+        right: 0;
+    }
+
+    #footer ul li {
+        margin-bottom: 10px;
+    }
+
+    #footer .socialIcon .angleIcon {
+        margin-bottom: 24px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #navbar {
+        padding: 12px 0;
+    }
+
+    #navbar .navbar-brand img {
+        width: 125px;
+    }
+
+    #navbar button {
+        border-color: #fff;
+    }
+
+    #navbar button:focus {
+        box-shadow: none;
+    }
+
+    #navbar button i {
+        color: #fff;
+    }
+
+    #navbar .navbar-collapse {
+        background: #000000e8;
+        z-index: 2;
+        margin-top: 12px;
+        text-align: center;
+    }
+
+    #navbar ul {
+        margin-top: 20px;
+    }
+
+    #navbar ul li a {
+        font: 400 16px var(--common-font);
+    }
+
+    #navbar .btnWrap {
+        margin: 40px 0 20px;
+    }
+
+    #navbar .btnWrap a {
+        line-height: 0;
+        padding: 18px 20px 14px;
+        margin-right: 20px;
+    }
+
+    /* ======= Hero Section Here ======= */
+    #hero {
+        padding: 115px 0 80px;
+    }
+
+    #hero .heroContent::after {
+        left: -180px;
+        top: -12px;
+        width: 346px;
+        height: 346px;
+    }
+
+    #hero .heroContent h1 {
+        font: 700 36px var(--common-font);
+        line-height: 40px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    #hero .heroContent p {
+        font: 400 19px var(--common-font);
+        line-height: 24px;
+        margin-bottom: 24px;
+        width: 100%;
+    }
+
+    #hero .heroContent a {
+        font: 700 14px var(--common-font);
+        padding: 15px 22px 11px;
+        border-radius: 5px;
+    }
+
+    /* ======= Navbar Here ======= */
+    #offerWrap {
+        padding: 60px 0;
+    }
+
+    #offerWrap .heading h2 {
+        font: 700 35px var(--common-font);
+        line-height: 40px;
+    }
+
+    #offerWrap .heading p {
+        font: 400 16px var(--common-font);
+        line-height: 24px;
+        width: 100%;
+    }
+
+    #offerWrap .items {
+        height: 404px;
+    }
+
+    #offerWrap .items .imagesPart {
+        padding: 24px 44px 190px 24px;
+    }
+
+    #offerWrap .items .contentWrap {
+        top: 200px;
+    }
+
+    #offerWrap .items .content {
+        padding: 18px;
+    }
+
+    #offerWrap .items .content h6 {
+        font: 400 14px var(--common-font);
+        line-height: 18px;
+        margin-bottom: 12px;
+    }
+
+    #offerWrap .items .content p {
+        font: 400 14px var(--common-font);
+        line-height: 18px;
+        width: 100%;
+    }
+
+    #offerWrap .items .content .price {
+        padding-bottom: 10px;
+    }
+
+    #offerWrap .items .content .hiddenContent {
+        padding-top: 10px;
+    }
+
+    #offerWrap .items .content .hiddenContent .priceTag {
+        font: 400 14px var(--common-font);
+        line-height: 18px;
+    }
+
+    #offerWrap .moreProjects {
+        margin-top: 60px;
+    }
+
+    #offerWrap .moreProjects a {
+        font: 400 14px var(--common-font);
+        padding: 19px 18px 14px;
+        border-radius: 5px;
+    }
+
+    #offerWrap .shape {
+        display: none;
+    }
+
+    /* ======= Navbar Here ======= */
+    #investorWrap {
+        padding: 60px 0;
+    }
+
+    #investorWrap .content .icon {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 18px;
+    }
+
+    #investorWrap .content h2 {
+        font: 700 35px var(--common-font);
+        line-height: 40px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #investorWrap .content p {
+        font: 400 16px var(--common-font);
+        line-height: 24px;
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    #investorWrap .shapeOne {
+        display: none;
+    }
+
+    #investorWrap .shapeTwo {
+        display: none;
+    }
+
+    /* ======= Navbar Here ======= */
+    #applyWrap {
+        padding: 60px 0;
+    }
+
+    #applyWrap .content h2 {
+        font: 700 34px var(--common-font);
+        line-height: 40px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    #applyWrap .content p {
+        font: 400 18px var(--common-font);
+        line-height: 24px;
+        margin-bottom: 24px;
+        width: 100%;
+    }
+
+    #applyWrap .content a {
+        font: 400 14px var(--common-font);
+        padding: 19px 18px 14px;
+        border-radius: 5px;
+        margin-bottom: 24px;
+    }
+
+    #applyWrap .applyShape {
+        display: none;
+    }
+
+    /* ======= Navbar Here ======= */
+    #footer .logoAndOthers img {
+        margin-bottom: 20px;
+        width: 60%;
+    }
+
+    #footer .logoAndOthers {
+        margin-bottom: 30px;
+    }
+
+    #footer .logoAndOthers p {
+        margin-bottom: 20px;
+    }
+
+    #footer .logoAndOthers form a {
+        top: 0;
+        right: 0;
+    }
+
+    #footer ul li {
+        margin-bottom: 10px;
+    }
+
+    #footer .socialIcon .angleIcon {
+        margin-bottom: 24px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #navbar {
+        padding: 18px 0;
+    }
+
+    #navbar .navbar-brand img {
+        width: 170px;
+    }
+
+    #navbar button {
+        border-color: #fff;
+    }
+
+    #navbar button:focus {
+        box-shadow: none;
+    }
+
+    #navbar button i {
+        color: #fff;
+    }
+
+    #navbar .navbar-collapse {
+        background: #000000e8;
+        z-index: 2;
+        margin-top: 12px;
+        text-align: center;
+    }
+
+    #navbar ul {
+        margin-top: 20px;
+    }
+
+    #navbar ul li a {
+        font: 400 16px var(--common-font);
+    }
+
+    #navbar .btnWrap {
+        margin: 40px 0 20px;
+    }
+
+    #navbar .btnWrap a {
+        line-height: 0;
+        padding: 18px 20px 14px;
+        margin-right: 20px;
+    }
+
+    /* ======= Hero Section Here ======= */
+    #hero {
+        padding: 115px 0 80px;
+    }
+
+    #hero .heroContent::after {
+        left: -70px;
+        top: -12px;
+        width: 270px;
+        height: 270px;
+    }
+
+    #hero .heroContent h1 {
+        font: 700 40px var(--common-font);
+        line-height: 46px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    #hero .heroContent p {
+        font: 400 19px var(--common-font);
+        line-height: 24px;
+        margin-bottom: 24px;
+        width: 100%;
+    }
+
+    #hero .heroContent a {
+        font: 700 16px var(--common-font);
+        padding: 17px 28px 13px;
+        border-radius: 5px;
+    }
+
+    /* ======= Navbar Here ======= */
+    #offerWrap {
+        padding: 60px 0;
+    }
+
+    #offerWrap .heading h2 {
+        font: 700 35px var(--common-font);
+        line-height: 40px;
+    }
+
+    #offerWrap .heading p {
+        font: 400 18px var(--common-font);
+        line-height: 24px;
+        width: 100%;
+    }
+
+    #offerWrap .items {
+        height: 404px;
+    }
+
+    #offerWrap .items .imagesPart {
+        padding: 24px 44px 190px 24px;
+    }
+
+    #offerWrap .items .contentWrap {
+        top: 200px;
+    }
+
+    #offerWrap .items .content {
+        padding: 18px;
+    }
+
+    #offerWrap .items .content h6 {
+        font: 400 14px var(--common-font);
+        line-height: 18px;
+        margin-bottom: 12px;
+    }
+
+    #offerWrap .items .content p {
+        font: 400 14px var(--common-font);
+        line-height: 18px;
+        width: 100%;
+    }
+
+    #offerWrap .items .content .price {
+        padding-bottom: 10px;
+    }
+
+    #offerWrap .items .content .hiddenContent {
+        padding-top: 10px;
+    }
+
+    #offerWrap .items .content .hiddenContent .priceTag {
+        font: 400 14px var(--common-font);
+        line-height: 18px;
+    }
+
+    #offerWrap .moreProjects {
+        margin-top: 60px;
+    }
+
+    #offerWrap .moreProjects a {
+        font: 400 14px var(--common-font);
+        padding: 19px 18px 14px;
+        border-radius: 5px;
+    }
+
+    #offerWrap .shape {
+        display: none;
+    }
+
+    /* ======= Navbar Here ======= */
+    #investorWrap {
+        padding: 60px 0;
+    }
+
+    #investorWrap .content .icon {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 41px;
+    }
+
+    #investorWrap .content h2 {
+        font: 700 35px var(--common-font);
+        line-height: 40px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #investorWrap .content p {
+        font: 400 18px var(--common-font);
+        line-height: 24px;
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    #investorWrap .shapeOne {
+        display: none;
+    }
+
+    #investorWrap .shapeTwo {
+        display: none;
+    }
+    #investorWrap .shapeThree {
+        width: 340px;
+    }
+
+    /* ======= Navbar Here ======= */
+    #applyWrap {
+        padding: 60px 0;
+    }
+
+    #applyWrap .content h2 {
+        font: 700 34px var(--common-font);
+        line-height: 40px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    #applyWrap .content p {
+        font: 400 18px var(--common-font);
+        line-height: 24px;
+        margin-bottom: 24px;
+        width: 100%;
+    }
+
+    #applyWrap .content a {
+        font: 400 14px var(--common-font);
+        padding: 19px 18px 14px;
+        border-radius: 5px;
+        margin-bottom: 24px;
+    }
+
+    #applyWrap .applyShape {
+        display: none;
+    }
+
+    /* ======= Navbar Here ======= */
+    #footer .logoAndOthers img {
+        margin-bottom: 20px;
+        width: 27%;
+    }
+
+    #footer .logoAndOthers {
+        margin-bottom: 30px;
+    }
+
+    #footer .logoAndOthers p {
+        margin-bottom: 20px;
+    }
+
+    #footer .logoAndOthers form a {
+        top: 0;
+        right: 0;
+    }
+    #footer .socialIcon .icons a {
+        margin-left: 20px;
+        color: #333333;
+        transition: .3s;
+    }
+    #footer ul li {
+        margin-bottom: 10px;
+    }
+
+    #footer .socialIcon .angleIcon {
+        margin-bottom: 115px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #navbar .btnWrap a {
+        font: 400 16px var(--common-font);
+        padding: 14px 20px 10px;
+        margin-right: 4px;
+    }
+    #hero {
+        padding: 170px 0 140px;
+    }
+    #hero .heroContent::after {
+        left: -148px;
+        top: -88px;
+    }
+    #offerWrap {
+        padding: 80px 0;
+    }
+    #investorWrap {
+        padding: 80px 0;
+    }
+    #investorWrap .content h2 {
+        font: 700 35px var(--common-font);
+        line-height: 40px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #investorWrap .content p {
+        font: 400 16px var(--common-font);
+        line-height: 24px;
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    #investorWrap .shapeTwo {
+        display: none;
+    }
+    #investorWrap .shapeThree {
+        width: 320px;
+    }
+    #applyWrap {
+        padding: 80px 0;
+    }
+    #footer .logoAndOthers img {
+        width: 60%;
+    }
+    #footer .logoAndOthers p {
+        margin-bottom: 60px;
+    }
+    #footer .socialIcon .angleIcon {
+        margin-bottom: 170px;
+    }
+}

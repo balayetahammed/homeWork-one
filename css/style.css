@@ -1,0 +1,587 @@
+/* ======= Google Fonts Link Here ======= */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+/* ======= Common CSS Here ======= */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* ======= Variable Here ======= */
+:root {
+    --common-font: "Josefin Sans", sans-serif;
+}
+
+/* ======= Navbar Start Here ======= */
+#navbar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 18px 0;
+}
+
+#navbar .navbar-brand {
+    padding: 0;
+}
+
+#navbar ul {
+    align-items: center;
+    gap: 16px;
+}
+
+#navbar ul li a {
+    font: 700 16px var(--common-font);
+    line-height: 24px;
+    color: #fff;
+    padding: 0;
+    transition: .3s;
+}
+
+#navbar ul li a::after {
+    display: none;
+}
+
+#navbar ul li a:hover {
+    color: #5E4DCD;
+}
+
+#navbar ul li ul li a {
+    color: #000;
+    padding: 10px 16px;
+}
+
+#navbar .btnWrap {
+    margin-left: 24px;
+}
+
+#navbar .btnWrap a {
+    font: 700 16px var(--common-font);
+    line-height: 24px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 16px 40px 12px;
+    background: #5E4DCD;
+    margin-right: 16px;
+    transition: 0.5s;
+}
+
+#navbar .btnWrap a:last-child {
+    margin-right: 0;
+}
+
+#navbar .btnWrap a:hover {
+    background: #FFD2DD;
+    color: #5E4DCD;
+}
+
+/* ======= Hero Section Here ======= */
+#hero {
+    background: url(../images/hero.png) no-repeat center;
+    background-size: cover;
+    padding: 321px 0 175px;
+}
+
+#hero .heroContent {
+    position: relative;
+    z-index: 1;
+}
+
+#hero .heroContent::after {
+    position: absolute;
+    content: '';
+    left: -148px;
+    top: -141px;
+    background: rgba(255, 210, 221, 0.50);
+    width: 558px;
+    height: 558px;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+#hero .heroContent h1 {
+    font: 700 60px var(--common-font);
+    line-height: 80px;
+    color: #fff;
+    width: 770px;
+    margin-bottom: 40px;
+}
+
+#hero .heroContent p {
+    font: 400 24px var(--common-font);
+    line-height: 32px;
+    color: #fff;
+    margin-bottom: 40px;
+    width: 470px;
+}
+
+#hero .heroContent a {
+    font: 700 16px var(--common-font);
+    line-height: 24px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 24px 80px 19px;
+    background: #5E4DCD;
+    transition: .3s;
+}
+
+#hero .heroContent a:hover {
+    background: #FFD2DD;
+    color: #5E4DCD;
+}
+
+/* ======= Offer Section Here ======= */
+#offerWrap {
+    padding: 160px 0;
+    position: relative;
+}
+
+#offerWrap .heading {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+#offerWrap .heading h2 {
+    font: 700 48px var(--common-font);
+    line-height: 64px;
+    color: #333333;
+    margin-bottom: 24px;
+}
+
+#offerWrap .heading p {
+    font: 400 24px var(--common-font);
+    line-height: 32px;
+    color: #999999;
+    width: 770px;
+    margin: 0 auto;
+}
+
+/* Offer List Here */
+#offerWrap .items {
+    box-shadow: 0 30px 40px 0 rgba(51, 51, 51, 16%);
+    position: relative;
+    width: 100%;
+    height: 480px;
+    overflow: hidden;
+}
+
+#offerWrap .items .imagesPart {
+    padding: 24px 162px 190px 24px;
+}
+
+#offerWrap .items .imgOne {
+    background: url(../images/ImgOne.png) no-repeat center;
+    background-size: cover;
+}
+
+#offerWrap .items .imgTwo {
+    background: url(../images/ImgTwo.png) no-repeat center;
+    background-size: cover;
+}
+
+#offerWrap .items .imgThree {
+    background: url(../images/ImgThree.png) no-repeat center;
+    background-size: cover;
+}
+
+#offerWrap .items .imgFour {
+    background: url(../images/ImgFour.png) no-repeat center;
+    background-size: cover;
+}
+
+#offerWrap .items .imgFive {
+    background: url(../images/ImgFive.png) no-repeat center;
+    background-size: cover;
+}
+
+#offerWrap .items .imgSix {
+    background: url(../images/ImgSix.png) no-repeat center;
+    background-size: cover;
+}
+
+#offerWrap .items .imagesPart a {
+    font: 700 10px var(--common-font);
+    line-height: 12px;
+    color: #333333;
+    padding: 8px 12px 6px;
+    background: #fff;
+    transition: .3s;
+    margin-right: 3px;
+    text-transform: uppercase;
+}
+
+#offerWrap .items .imagesPart a:last-child {
+    margin-right: 0;
+}
+
+#offerWrap .items .imagesPart a:hover {
+    background: #5E4DCD;
+    color: #fff;
+}
+
+#offerWrap .items .contentWrap{
+    position: absolute;
+    left: 0;
+    top: 241px;
+    width: 100%;
+    transition: .4s;
+}
+#offerWrap .items .contentWrap:hover{
+    top: 0;
+}
+#offerWrap .items .content {
+    background: #fff;
+    padding: 24px;
+}
+
+#offerWrap .items .content h3 {
+    font: 700 24px var(--common-font);
+    line-height: 32px;
+    color: #333333;
+}
+
+#offerWrap .items .content h6 {
+    font: 400 16px var(--common-font);
+    line-height: 24px;
+    color: #999999;
+    margin-bottom: 24px;
+}
+
+#offerWrap .items .content p {
+    font: 400 16px var(--common-font);
+    line-height: 24px;
+    color: #333333;
+    width: 322px;
+}
+#offerWrap .items .content .price{
+    border-bottom: 1px solid #ECECEC;
+    padding-bottom: 24px;
+    margin-top: 24px;
+}
+#offerWrap .items .content .price .line {
+    width: 100%;
+    height: 8px;
+    background: #ECECEC;
+    margin-bottom: 8px;
+}
+
+#offerWrap .items .content .price .line .innerLine {
+    width: 58%;
+    height: 8px;
+    background: #5E4DCD;
+}
+
+#offerWrap .items .content .price p {
+    font: 400 14px var(--common-font);
+    line-height: 24px;
+    color: #333333;
+    margin-bottom: 0;
+}
+
+#offerWrap .items .content .price p span {
+    font: 700 16px var(--common-font);
+    color: #5E4DCD;
+}
+#offerWrap .items .content .hiddenContent{
+    padding-top: 24px;
+}
+#offerWrap .items .content .hiddenContent .priceTag{
+    font: 400 16px var(--common-font);
+    line-height: 24px;
+    color: #333333;
+    margin-bottom: 8px;
+}
+#offerWrap .items .content .hiddenContent .priceTag:last-child{
+    margin-bottom: 0;
+}
+#offerWrap .items .contentWrap a{
+    font: 700 16px var(--common-font);
+    line-height: 24px;
+    color: #fff;
+    width: 100%;
+    height: 72px;
+    padding: 25px 0 23px;
+    text-align: center;
+    text-transform: uppercase;
+    background: #F56B8D;
+}
+
+/* Button Here */
+#offerWrap .moreProjects {
+    text-align: center;
+    margin-top: 80px;
+}
+
+#offerWrap .moreProjects a {
+    font: 700 16px var(--common-font);
+    line-height: 24px;
+    color: #5E4DCD;
+    padding: 24px 51px 19px;
+    background: #fff;
+    border: 1px solid #5E4DCD;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+#offerWrap .moreProjects a:hover {
+    background: #5E4DCD;
+    color: #fff;
+}
+
+/* Shape here */
+#offerWrap .shape {
+    position: absolute;
+    width: 306px;
+    left: 40px;
+    top: 597px;
+    z-index: -21;
+}
+
+/* ======= Investor Section Here ======= */
+#investorWrap {
+    padding: 160px 0;
+    background: #FFD2DD;
+    position: relative;
+    z-index: 1;
+}
+
+#investorWrap .content .icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+
+#investorWrap .content h2 {
+    font: 700 48px var(--common-font);
+    line-height: 64px;
+    color: #333333;
+    width: 570px;
+    margin-bottom: 24px;
+}
+
+#investorWrap .content p {
+    font: 400 24px var(--common-font);
+    line-height: 32px;
+    color: #fff;
+    width: 570px;
+}
+
+/* Shape Here */
+#investorWrap .shapeOne {
+    position: absolute;
+    width: 148.36px;
+    top: 0;
+    right: 75px;
+    z-index: -1;
+}
+
+#investorWrap .shapeTwo {
+    position: absolute;
+    width: 30px;
+    right: 155px;
+    bottom: 205px;
+    z-index: -1;
+}
+
+#investorWrap .shapeThree {
+    position: absolute;
+    width: 607px;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    z-index: -1;
+}
+
+/* ======= Apply Section Here ======= */
+#applyWrap {
+    padding: 160px 0;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+#applyWrap .content h2 {
+    font: 700 48px var(--common-font);
+    line-height: 64px;
+    color: #333333;
+    margin-bottom: 24px;
+    width: 570px;
+}
+
+#applyWrap .content p {
+    font: 400 24px var(--common-font);
+    line-height: 32px;
+    color: #999999;
+    margin-bottom: 40px;
+    width: 570px;
+}
+
+#applyWrap .content a {
+    font: 700 16px var(--common-font);
+    padding: 24px 71px 22px;
+    background: #5E4DCD;
+    color: #fff;
+    text-transform: uppercase;
+    transition: .3s;
+    border: 1px solid #5E4DCD;
+}
+
+#applyWrap .content a:hover {
+    background: #fff;
+    border: 1px solid #5E4DCD;
+    color: #5E4DCD;
+}
+
+/* Shape Here */
+#applyWrap .applyShape {
+    position: absolute;
+    width: 306px;
+    top: 145px;
+    right: 0;
+    z-index: -1;
+}
+
+/* ======= Footer Section Here ======= */
+#footer {
+    background: #ECECEC;
+    padding: 60px 0;
+}
+
+#footer .logoAndOthers img {
+    margin-bottom: 30px;
+}
+
+#footer .logoAndOthers p {
+    font: 400 15px var(--common-font);
+    letter-spacing: 0.2px;
+    color: #333333;
+    margin-bottom: 192px;
+}
+
+#footer .logoAndOthers h3 {
+    font: 400 24px var(--common-font);
+    line-height: 36px;
+    color: #333333;
+    margin-bottom: 16px;
+}
+
+#footer .logoAndOthers form {
+    border-bottom: 1px solid #cecaca;
+    position: relative;
+}
+
+#footer .logoAndOthers form input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    font: 400 16px var(--common-font);
+    line-height: 24px;
+    color: #333333;
+}
+
+#footer .logoAndOthers form a {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #5E4DCD;
+    border-radius: 8px 8px 0 0;
+    position: absolute;
+    color: #fff;
+}
+
+#footer .logoAndOthers form a:hover {
+    background: #FFD2DD;
+    color: #5E4DCD;
+}
+
+#footer .logoAndOthers form a i {
+    font-size: 24px;
+}
+
+#footer ul li {
+    margin-bottom: 16px;
+}
+
+#footer ul li a {
+    font: 400 16px var(--common-font);
+    line-height: 24px;
+    color: #333333;
+}
+
+#footer ul li .active {
+    font: 700 18px var(--common-font);
+}
+
+#footer .socialIcon {
+    text-align: -webkit-right;
+}
+
+#footer .socialIcon .angleIcon {
+    width: 50px;
+    height: 50px;
+    background: #FFD2DD;
+    border-radius: 50%;
+    color: #5E4DCD;
+    margin-bottom: 298px;
+    transition: .3s;
+}
+
+#footer .socialIcon .angleIcon:hover {
+    background: #5E4DCD;
+    color: #fff;
+}
+
+#footer .socialIcon .angleIcon i {
+    font-size: 24px;
+}
+
+#footer .socialIcon .icons a {
+    margin-left: 40px;
+    color: #333333;
+    transition: .3s;
+}
+
+#footer .socialIcon .icons a:first-child {
+    margin-left: 0;
+}
+
+#footer .socialIcon .icons a:hover {
+    color: #5E4DCD;
+}
+
+#footer .socialIcon .icons a i {
+    font-size: 16px;
+}
